@@ -91,3 +91,78 @@ margin-left: 400px;
     margin-top: -30px;
     color:#2e2c2c
 }
+.hitdescription{
+    font-family:'Urbanist', sans-serif;
+    font-size: 20px;
+    margin-left: 560px;
+}
+.firststepicon{
+    margin-left: 400px;
+}
+.firsticontitle{
+    margin-left: 350px;
+    margin-top: -20px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+.firsticondescr{
+    margin-left: 300px;
+    font-family:'Urbanist', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    width: 300px;
+}
+.secondstepicon{
+    margin-left: 700px;
+    margin-top: -240px;
+}
+.secondicontitle{
+    margin-left: 700px;
+    margin-top: -20px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+.secondicondescr{
+    margin-left: 620px;
+    font-family:'Urbanist', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    width: 300px;
+}
+
+
+.thirdstepicon{
+    margin-left: 1050px;
+    margin-top: -240px;
+}
+.thirdicontitle{
+    margin-left:1050px;
+    margin-top: -20px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+.thirdicondescr{
+    margin-left: 970px;
+    font-family:'Urbanist', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    width: 300px;
+}
+
+.fourstepicon{
+    margin-left: 1400px;
+    margin-top: -240px;
+}
+.fouricontitle{
+    margin-left:1400px;
+    margin-top: -20px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+.fouricondescr{
+    margin-left: 1320px;
+    font-family:'Urbanist', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    width: 300px;
+}
