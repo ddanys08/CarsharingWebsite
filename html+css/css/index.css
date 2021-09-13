@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: url(cssimages/main_image.webp);
+    height: 100vh;
+    background-repeat: no-repeat; 
+    z-index: 1;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    background-color: white;
+    z-index: 2;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 950px;
+    margin-top: -55px;
+}
+li{
+    display: block;
+    padding: 0 20px;
+    font-family:'Open Sans', sans-serif;
+    font-size: 18px;
+    }
+li a{
+    text-decoration: none;
+    color:black;
+    
+}
+ul:hover li a:hover{
+color: red;
+}
+
+.logotype{ 
+    height: inherit;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 350px;
+}
+.mainbannerword{
+    margin-top: 130px;
+    margin-left: 400px;
+}
+.mainbanner{
+    margin-left: 400px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 48px;
+    color:#2e2c2c;
+    width: 480px;
+    height: 200px;
+}
+.bannerdecription{
+    margin-left: 400px;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 22px;
+    width: 500px;
+}
+.appstoremainimg{
+margin-left: 400px;
+}
+.googleplaymainimg{
+    margin-left: 625px;
+    margin-top: -154px;
+}
+
+
