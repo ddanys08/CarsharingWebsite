@@ -3,13 +3,14 @@ body{
     padding: 0;
 }
 .container{
+    display: flex;
     background-image: url(cssimages/main_image.webp);
     height: 100vh;
     background-repeat: no-repeat; 
     z-index: 1;
 }
 .navbar{
-    width: 100%;
+    width: 140%;
     height: 80px;
     margin: 0 auto;
     background-color: white;
@@ -74,94 +75,45 @@ margin-left: 400px;
     margin-top: -154px;
 }
 
-.howitworkscontainer{
-    margin-top: 100px;
-    background-color: white;
-    height: 50vh;
-}
-.articlehowitworks{
+#how_it_works_article{
+    text-align: center;
     color: gray;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 14px;
-    margin-left: 45%;
+    margin-top: 100px;
 }
-.hitbanner{
+.how_it_works_banner{
     font-family: 'Work Sans', sans-serif;
     font-size: 26px;
-    margin-left: 29%;
-    margin-top: -30px;
+    text-align: center;
+    margin-top: -20px;
     color:#2e2c2c
 }
-.hitdescription{
+.how_it_works_downbanner{
     font-family:'Urbanist', sans-serif;
     font-size: 20px;
-    margin-left: 560px;
-}
-.firststepicon{
-    margin-left: 330px;
-}
-.firsticontitle{
-    margin-left: 280px;
-    margin-top: -20px;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 20px;
-}
-.firsticondescr{
-    margin-left: 230px;
-    font-family:'Urbanist', sans-serif;
-    font-size: 18px;
     text-align: center;
-    width: 300px;
-}
-.secondstepicon{
-    margin-left: 700px;
-    margin-top: -240px;
-}
-.secondicontitle{
-    margin-left: 700px;
-    margin-top: -20px;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 20px;
-}
-.secondicondescr{
-    margin-left: 620px;
-    font-family:'Urbanist', sans-serif;
-    font-size: 18px;
-    text-align: center;
-    width: 300px;
 }
 
 
-.thirdstepicon{
-    margin-left: 1050px;
-    margin-top: -240px;
-}
-.thirdicontitle{
-    margin-left:1050px;
-    margin-top: -20px;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 20px;
-}
-.thirdicondescr{
-    margin-left: 970px;
-    font-family:'Urbanist', sans-serif;
-    font-size: 18px;
+.how_it_works_container{
+    display: flex;
+    text-justify:inherit;
+    justify-content: space-around;
     text-align: center;
-    width: 300px;
+    margin-top: 50px;
+    background-color: white;
+    height: 50vh;
+    padding: 0 200px;
 }
 
-.fourstepicon{
-    margin-left: 1400px;
-    margin-top: -240px;
-}
-.fouricontitle{
-    margin-left:1400px;
-    margin-top: -20px;
+.how_it_works_title{
     font-family: 'Work Sans', sans-serif;
-    font-size: 20px;
+    font-size: 26px;
+    color:#2e2c2c;
+    text-align: center;
 }
-.fouricondescr{
-    margin-left: 1320px;
+.how_it_works_descr{
     font-family:'Urbanist', sans-serif;
     font-size: 18px;
     text-align: center;
