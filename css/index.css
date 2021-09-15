@@ -9,6 +9,8 @@ body{
     background-repeat: no-repeat; 
     z-index: 1;
 }
+
+    
 .navbar{
     width: 140%;
     height: 80px;
@@ -67,9 +69,11 @@ color: red;
     font-size: 22px;
     width: 500px;
 }
+
 .appstoremainimg{
 margin-left: 400px;
 }
+
 .googleplaymainimg{
     margin-left: 625px;
     margin-top: -154px;
@@ -89,12 +93,12 @@ margin-left: 400px;
     margin-top: -20px;
     color:#2e2c2c
 }
+
 .how_it_works_downbanner{
     font-family:'Urbanist', sans-serif;
     font-size: 20px;
     text-align: center;
 }
-
 
 .how_it_works_container{
     display: flex;
@@ -113,9 +117,25 @@ margin-left: 400px;
     color:#2e2c2c;
     text-align: center;
 }
+
 .how_it_works_descr{
     font-family:'Urbanist', sans-serif;
     font-size: 18px;
     text-align: center;
     width: 300px;
+}
+
+.welcome_container{
+    height:100vh;
+    display: flex;
+    justify-content: right;
+    background-image: url(cssimages/carimage2.webp);
+}
+.welcome_banner{
+    margin-top: 200px;
+    text-align: left;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 44px;
+    color:#2e2c2c;
+    width: 800;
 }
