@@ -107,7 +107,7 @@ margin-left: 400px;
     text-align: center;
     margin-top: 50px;
     background-color: white;
-    height: 50vh;
+    height: 30vh;
     padding: 0 200px;
 }
 
@@ -127,15 +127,21 @@ margin-left: 400px;
 
 .welcome_container{
     height:100vh;
-    display: flex;
-    justify-content: right;
     background-image: url(cssimages/carimage2.webp);
 }
 .welcome_banner{
-    margin-top: 200px;
+    position:absolute; right:250;
     text-align: left;
     font-family: 'Work Sans', sans-serif;
-    font-size: 44px;
+    font-size: 42px;
     color:#2e2c2c;
-    width: 800;
+    width: 700;
+    margin-top: 150px;
+}
+.welcome_description{
+    position:absolute; right:450;
+    margin-top: 350px;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 22px;
+    width: 500px;
 }
