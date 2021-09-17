@@ -44,21 +44,24 @@ body{
         grid-auto-flow: row;
         align-items:center;
         margin: 0px;
-        text-align: center;  
+        text-align: left;  
     }
     .main_banner{
         width: 250px;
-        margin-left: 150px;
+        margin-left: 15px;
+        
     }
     .main_banner_description{
         width: 250px;
-        margin-left: 150px;
+        margin-left: 15px;
     }
     .download{
         flex-direction: column;
+        margin-left: 15px;
     }
     .downlod_googleplay{
         margin-top: -50px;
+        margin-left: -15px
     }
 }
 #how_it_works_article{
@@ -164,25 +167,48 @@ body{
         grid-auto-flow: row;
         font-size: 20;
         height: min-content;
-        margin-left: 20px;
+        margin-left: -220px;
     }
     #how_it_works_article{
         margin-top: -600px;
-        margin-left: 30px;
+        margin-left: -2250px;
     }
     .how_it_works_banner{
         width: 200px;
-        margin-left: 170px;
+        margin-left: 40px;
+        
     }
     .how_it_works_downbanner{
         width: 200px;
-        margin-left: 170px;
+        margin-left: 40px;
+    
     }
 }
 @media (max-width: 525px) {
     .welcome_container{
-        display: grid;
-        margin: 0;
-        grid-auto-flow: row;
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        justify-content: center;
+        
     }
+    .welcome_banner{
+        width: 250px;
+        margin-left: 15px
+    }
+.welcome_description{
+    width: 200px;
+    margin-left: 15px
+}
+.wlecome_points
+.accept_description{
+    width: 200px;
+    margin-left: 15px
+}
+.count_conteiner{
+display: none;
+}
+.count_description_container{
+    display: none;
+}
 }
