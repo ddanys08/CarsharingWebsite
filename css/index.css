@@ -4,14 +4,52 @@ body{
 }
 .firstpage{
     margin:0 auto;
-    background: url(cssimages/main_image.webp)  no-repeat;
-    height: 100vh;     
+    background: url(cssimages/main_image.webp) no-repeat;
+    height: 100vh;
+    max-width: 2100px;
+    background: cover;
 }
 .container{
     margin:0 auto;
     display: flex;
     flex-direction: column;
-    margin-left: 400px;    
+    margin-left: 400px;  
+    margin-top: -70px;  
+}
+.navbar{
+    height: 80px;
+    background-color: white;
+    z-index: 2;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -55px;
+    margin-right: 270px;
+}
+li{
+    display: block;
+    padding: 0 20px;
+    font-family:'Open Sans', sans-serif;
+    font-size: 18px;
+    }
+li a{
+    text-decoration: none;
+    color:black;
+    
+}
+ul:hover li a:hover{
+color: red;
+}
+
+.logotype{ 
+    height: inherit;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 300px;
+
 }
 .main_banner{
     font-family: 'Work Sans', sans-serif;
@@ -34,36 +72,12 @@ body{
 .downlod_googleplay{
     margin-top: 50px;
 }
-@media (max-width: 525px) {
-    .firstpage{
-        background: white;
-        
-    }
-    .container{
-        display: grid;
-        grid-auto-flow: row;
-        align-items:center;
-        margin: 0px;
-        text-align: left;  
-    }
-    .main_banner{
-        width: 250px;
-        margin-left: 15px;
-        
-    }
-    .main_banner_description{
-        width: 250px;
-        margin-left: 15px;
-    }
-    .download{
-        flex-direction: column;
-        margin-left: 15px;
-    }
-    .downlod_googleplay{
-        margin-top: -50px;
-        margin-left: -15px
-    }
+.how_it_works{
+    margin:0 auto;
+    max-width: 2100px;
+    max-height: 1200px;
 }
+
 #how_it_works_article{
     text-align: center;
     color: gray;
@@ -75,7 +89,6 @@ body{
     font-family: 'Work Sans', sans-serif;
     font-size: 26px;
     text-align: center;
-    margin-top: -20px;
     color:#2e2c2c
 }
 .how_it_works_downbanner{
@@ -84,6 +97,7 @@ body{
     text-align: center;
 }
 .how_it_works_container{
+    margin:0 auto;
     display: flex;
     text-justify:inherit;
     justify-content: space-around;
@@ -91,6 +105,7 @@ body{
     margin-top: 50px;
     background-color: white;
     height: 30vh;
+    max-width: 2100px;
     padding: 0 200px;
 }
 .how_it_works_title{
@@ -106,28 +121,31 @@ body{
     width: 300px;
 }
 .welcome_container{
+    margin:0 auto;
     display: grid;
-    height:100vh;
-    background: url(cssimages/carimage2.webp) center center/cover no-repeat;
+    height: 100vh;
+    max-width: 2100px;
+    background: url(cssimages/carimage2.webp);
     background-repeat: no-repeat;
     justify-content: end;
     align-content: center;
     
 }
 .welcome_banner{
-    width: 200px;
+    width: 700px;
     font-family: 'Work Sans', sans-serif;
-    font-size: 42px;
+    font-size: 46px;
     color:#2e2c2c;
-    width: 700;
     margin-right: 200px;  
 }
 .welcome_description{
+    margin-top: 20px;
     font-family: 'Urbanist', sans-serif;
     font-size: 22px;
     width: 650px;
 }
 .wlecome_points{
+    margin-top: 20px;
     width: 350px;
     display: flex;
     justify-content:flex-start;
@@ -146,69 +164,93 @@ body{
 }
 .welcome_count{
     font-family: 'Work Sans', sans-serif;
-    font-size: 34px;
+    font-size: 38px;
     color:#7821e9;
 }
 .count_description_container{
         display: flex;
         justify-content: space-between;
         width: 550px;
-        margin-top: -30;
 }
 .count_description{
     color: rgb(80, 80, 80);
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 16px;
 }
-@media (max-width: 525px) {
-    .how_it_works_container{
-        display: grid;
-        margin: 0;
-        grid-auto-flow: row;
-        font-size: 20;
-        height: min-content;
-        margin-left: -220px;
-    }
-    #how_it_works_article{
-        margin-top: -600px;
-        margin-left: -2250px;
-    }
-    .how_it_works_banner{
-        width: 200px;
-        margin-left: 40px;
-        
-    }
-    .how_it_works_downbanner{
-        width: 200px;
-        margin-left: 40px;
-    
-    }
+
+.cars_section{
+    margin:0 auto;
+    background-color: white no-repeat;
+    max-width: 2100px;
+    height: 100vh;
 }
-@media (max-width: 525px) {
-    .welcome_container{
-        display: flex;
-        flex-direction: column;
-        width: 200px;
-        justify-content: center;
-        
-    }
-    .welcome_banner{
-        width: 250px;
-        margin-left: 15px
-    }
-.welcome_description{
-    width: 200px;
-    margin-left: 15px
+.cars_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.wlecome_points
-.accept_description{
-    width: 200px;
-    margin-left: 15px
+#cars_article{
+    color: gray;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
 }
-.count_conteiner{
-display: none;
+.cars_banner{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 42px;
+    color:#2e2c2c;
 }
-.count_description_container{
-    display: none;
+.cars_description{
+    color: rgb(80, 80, 80);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
 }
+.carousel_container{
+    margin:0 auto;
+    margin-top: 150px;
+    width: 1200px;
+    height: 400px;
+}
+
+.our_app{
+    height: 100vh;
+    margin:0 auto;
+    display: flex; 
+    background-color:white;
+    justify-content:center;
+    max-width: 2100px;
+}
+.mobile_phone{
+    margin-right: 100px;
+}
+.our_app_description{
+    width: 750px;
+}
+#app_article{
+    color: gray;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+}
+.app_banner{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 48px;
+    color:#2e2c2ce7;
+}
+.app_descr{
+font-family: 'Urbanist', sans-serif;
+    font-size: 22px;
+}
+.app_icon {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.appicon_descr{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 18px;
+}
+.down_app_descr{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 18px;
+    margin-bottom: -20px;
 }
