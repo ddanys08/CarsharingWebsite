@@ -75,7 +75,7 @@ color: red;
 .how_it_works{
     margin:0 auto;
     max-width: 2100px;
-    
+    max-height: 1200px;
 }
 
 #how_it_works_article{
@@ -129,7 +129,11 @@ color: red;
     background-repeat: no-repeat;
     justify-content: end;
     align-content: center;
-    
+}
+.wlecome_title_container{
+    min-height: 100vh;
+    margin-top: 150px;
+
 }
 .welcome_banner{
     width: 700px;
