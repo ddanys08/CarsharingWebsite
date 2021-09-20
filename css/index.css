@@ -3,9 +3,10 @@ body{
     margin: 0;
 }
 .firstpage{
+    display: block;
     margin:0 auto;
     background: url(cssimages/main_image.webp) no-repeat;
-    min-height: 100vh;
+    min-height:870px;
     max-width: 2100px;
     background: cover;
 }
@@ -75,7 +76,7 @@ color: red;
 .how_it_works{
     margin:0 auto;
     max-width: 2100px;
-    max-height: 1200px;
+    min-height: 150px;
 }
 
 #how_it_works_article{
@@ -104,7 +105,7 @@ color: red;
     text-align: center;
     margin-top: 50px;
     background-color: white;
-    min-height: 30vh;
+    min-height: 350px;
     max-width: 2100px;
     padding: 0 200px;
 }
@@ -123,7 +124,7 @@ color: red;
 .welcome_container{
     margin:0 auto;
     display: grid;
-    min-height: 100vh;
+    min-height: 870px;
     max-width: 2100px;
     background: url(cssimages/carimage2.webp);
     background-repeat: no-repeat;
@@ -131,7 +132,7 @@ color: red;
     align-content: center;
 }
 .wlecome_title_container{
-    min-height: 100vh;
+    min-height: 820px;
     margin-top: 150px;
 
 }
@@ -186,7 +187,7 @@ color: red;
     margin:0 auto;
     background-color: white no-repeat;
     max-width: 2100px;
-    min-height: 100vh;
+    min-height: 870px;
 }
 .cars_content{
     display: flex;
@@ -216,7 +217,7 @@ color: red;
 }
 
 .our_app{
-    min-height: 100vh;
+    min-height: 870px;
     margin:0 auto;
     display: flex; 
     background-color:white;
