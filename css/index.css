@@ -75,7 +75,7 @@ color: red;
 .how_it_works{
     margin:0 auto;
     max-width: 2100px;
-    max-height: 1200px;
+    
 }
 
 #how_it_works_article{
@@ -104,7 +104,7 @@ color: red;
     text-align: center;
     margin-top: 50px;
     background-color: white;
-    max-height: 30vh;
+    min-height: 30vh;
     max-width: 2100px;
     padding: 0 200px;
 }
