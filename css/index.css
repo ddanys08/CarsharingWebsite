@@ -209,13 +209,6 @@ color: red;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 16px;
 }
-.carousel_container{
-    margin:0 auto;
-    margin-top: 150px;
-    width: 1200px;
-    min-height: 400px;
-}
-
 .our_app{
     min-height: 870px;
     margin:0 auto;
@@ -259,3 +252,24 @@ font-family: 'Urbanist', sans-serif;
     font-size: 18px;
     margin-bottom: -20px;
 }
+.carousel_container{
+    margin:0 auto;
+    width: 1200px;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.content_container{
+    display: flex;
+    justify-content: space-around;
+  }
+.content_container img{
+    width: 50%;
+    height: auto;
+  }
+.btn_cars{
+    display: flex;
+    justify-content: center;
+
+}
+
