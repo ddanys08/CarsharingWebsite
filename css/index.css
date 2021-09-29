@@ -344,7 +344,6 @@ font-family: 'Urbanist', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px dashed white;
 }
 .article_tariffs{
     color: white;
@@ -378,5 +377,53 @@ font-family: 'Urbanist', sans-serif;
 }
 .nav-link:hover{
     color: white !important;
+}
+.video_section{
+    min-height: 870px;
+    max-width: 2100px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/video_section.webp);
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+.video_article{
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+}
+.video_mainbanner{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-size: 55px;
+}
+.video_descr{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 26px;
+    color: white;
+}
+.video_banner{
+    margin-left: 400px;
+    display: flex;
+    background: linear-gradient(rgba(0, 0, 0, 0.537), rgba(0, 0, 0, 0.537));
+    flex-direction: column;
+    width: 550px;
+    padding: 30px;
+    border-radius: 30px;
+}
+.playvideo_icon{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.playicon{
+    width: 10%;
+    height: auto;
+}
+.play_icon_article{
+    color: orangered;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 15px;
 }
 
