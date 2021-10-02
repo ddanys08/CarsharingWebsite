@@ -154,8 +154,12 @@
                         We have various car classes. Select your perfect fit on the map in the UDRIVE app.</div>
                 </div>
                 <div class="slider_btns">
-                    <button class="slider-prev"><img = src="img/arrowiconleft.png" alt = "arrow" width="40" height="auto"></button>
-                            <button class="slider-next"><img = src="img/arrowicon.png" alt = "arrow" width="40" height="auto"></button>
+                    <button class="slider-prev">
+                        <img src="img/arrowiconleft.png" alt="arrow" width="40" height="auto">
+                    </button>
+                    <button class="slider-next">
+                        <img src="img/arrowicon.png" alt ="arrow" width="40" height="auto">
+                    </button>
                 </div>
                 <div class="slider">
                     <div class="slider-line">
@@ -348,18 +352,237 @@
                     <div class="line"></div>
                     <p class="tariffs_descr">We have developed three types of plans for your flexibility.</p>
                 </div>
-                <div class="nav_tariffs"
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page3" href="#">Economy Class</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page3" href="#">Business Class</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page3" href="#">Comfort Class</a>
-                    </li>
-                  </ul>
+                <div class="nav_tariffs">
+                    <div class="centertabs">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                aria-selected="true">Economy Class</button>
+                            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                                aria-selected="false">Business Class</button>
+                            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
+                                aria-selected="false">Comfort Class</button>
+                        </div>
+                    </nav>
+                    </div>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                            aria-labelledby="nav-home-tab">
+                            <div class="tariffs">
+                                <div class="economy_class">
+                                    <p class="tariffs-article">
+                                        Basic</p>
+                                    <p class="tariffs-price">$1/min</p>
+                                    <p class="price-descr">Best for short trips around the city.</p>
+                                    <div class="price-line"></div>
+                                    <div class="tariffs-description">
+                                        <div class="tariff-details-articles">
+                                            <p class="tariff-details-article">Mileage</p>
+                                            <p class="tariff-details-article">Booking</p>
+                                            <p class="tariff-details-article">Pick-up fee</p>
+                                            <p class="tariff-details-article">Extra time</p>
+                                        </div>
+                                        <div class="tariff-details-descriptions">
+                                            <p class="tariff-description-article">40 miles</p>
+                                            <p class="tariff-description-article">free</p>
+                                            <p class="tariff-description-article">$10</p>
+                                            <p class="tariff-description-article">$3/min</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="tariffs-article">Select Plan</a>
+                                </div>
+                                <div class="economy_class">
+                                    <p class="tariffs-article">
+                                        Smart</p>
+                                    <p class="tariffs-price">$12/hour</p>
+                                    <p class="price-descr">For everyday rides of any distance.</p>
+                                    <div class="price-line"></div>
+                                    <div class="tariffs-description">
+                                        <div class="tariff-details-articles">
+                                            <p class="tariff-details-article">Mileage</p>
+                                            <p class="tariff-details-article">Booking</p>
+                                            <p class="tariff-details-article">Pick-up fee</p>
+                                            <p class="tariff-details-article">Extra time</p>
+                                        </div>
+                                        <div class="tariff-details-descriptions">
+                                            <p class="tariff-description-article">70 miles</p>
+                                            <p class="tariff-description-article">free</p>
+                                            <p class="tariff-description-article">$18</p>
+                                            <p class="tariff-description-article">$5/min</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="tariffs-article">Select Plan</a>
+                                </div>
+                                <div class="economy_class">
+                                    <p class="tariffs-article">
+                                        Extra</p>
+                                    <p class="tariffs-price">$45/day</p>
+                                    <p class="price-descr">Limitless usage during 24 hours.</p>
+                                    <div class="price-line"></div>
+                                    <div class="tariffs-description">
+                                        <div class="tariff-details-articles">
+                                            <p class="tariff-details-article">Mileage</p>
+                                            <p class="tariff-details-article">Booking</p>
+                                            <p class="tariff-details-article">Pick-up fee</p>
+                                            <p class="tariff-details-article">Extra time</p>
+                                        </div>
+                                        <div class="tariff-details-descriptions">
+                                            <p class="tariff-description-article">not limited</p>
+                                            <p class="tariff-description-article">free</p>
+                                            <p class="tariff-description-article">$20</p>
+                                            <p class="tariff-description-article">$7/min</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="tariffs-article">Select Plan</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="tariffs">
+                                <div class="economy_class">
+                                    <p class="tariffs-article">
+                                        Basic</p>
+                                    <p class="tariffs-price">$3/min</p>
+                                    <p class="price-descr">Best for short trips around the city.</p>
+                                    <div class="price-line"></div>
+                                    <div class="tariffs-description">
+                                        <div class="tariff-details-articles">
+                                            <p class="tariff-details-article">Mileage</p>
+                                            <p class="tariff-details-article">Booking</p>
+                                            <p class="tariff-details-article">Pick-up fee</p>
+                                            <p class="tariff-details-article">Extra time</p>
+                                        </div>
+                                        <div class="tariff-details-descriptions">
+                                            <p class="tariff-description-article">40 miles</p>
+                                            <p class="tariff-description-article">free</p>
+                                            <p class="tariff-description-article">$12</p>
+                                            <p class="tariff-description-article">$3/min</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="tariffs-article">Select Plan</a>
+                                </div>
+                                <div class="economy_class">
+                                    <p class="tariffs-article">
+                                        Smart</p>
+                                    <p class="tariffs-price">$15/hour</p>
+                                    <p class="price-descr">For everyday rides of any distance.</p>
+                                    <div class="price-line"></div>
+                                    <div class="tariffs-description">
+                                        <div class="tariff-details-articles">
+                                            <p class="tariff-details-article">Mileage</p>
+                                            <p class="tariff-details-article">Booking</p>
+                                            <p class="tariff-details-article">Pick-up fee</p>
+                                            <p class="tariff-details-article">Extra time</p>
+                                        </div>
+                                        <div class="tariff-details-descriptions">
+                                            <p class="tariff-description-article">70 miles</p>
+                                            <p class="tariff-description-article">free</p>
+                                            <p class="tariff-description-article">$20</p>
+                                            <p class="tariff-description-article">$5/min</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="tariffs-article">Select Plan</a>
+                                </div>
+                                <div class="economy_class">
+                                    <p class="tariffs-article">
+                                        Extra</p>
+                                    <p class="tariffs-price">$55/day</p>
+                                    <p class="price-descr">Limitless usage during 24 hours.</p>
+                                    <div class="price-line"></div>
+                                    <div class="tariffs-description">
+                                        <div class="tariff-details-articles">
+                                            <p class="tariff-details-article">Mileage</p>
+                                            <p class="tariff-details-article">Booking</p>
+                                            <p class="tariff-details-article">Pick-up fee</p>
+                                            <p class="tariff-details-article">Extra time</p>
+                                        </div>
+                                        <div class="tariff-details-descriptions">
+                                            <p class="tariff-description-article">not limited</p>
+                                            <p class="tariff-description-article">free</p>
+                                            <p class="tariff-description-article">$23</p>
+                                            <p class="tariff-description-article">$7/min</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="tariffs-article">Select Plan</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <div class="tariffs">
+                                <div class="economy_class">
+                                    <p class="tariffs-article">
+                                        Basic</p>
+                                    <p class="tariffs-price">$3/min</p>
+                                    <p class="price-descr">Best for short trips around the city.</p>
+                                    <div class="price-line"></div>
+                                    <div class="tariffs-description">
+                                        <div class="tariff-details-articles">
+                                            <p class="tariff-details-article">Mileage</p>
+                                            <p class="tariff-details-article">Booking</p>
+                                            <p class="tariff-details-article">Pick-up fee</p>
+                                            <p class="tariff-details-article">Extra time</p>
+                                        </div>
+                                        <div class="tariff-details-descriptions">
+                                            <p class="tariff-description-article">40 miles</p>
+                                            <p class="tariff-description-article">free</p>
+                                            <p class="tariff-description-article">$15</p>
+                                            <p class="tariff-description-article">$3/min</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="tariffs-article">Select Plan</a>
+                                </div>
+                                <div class="economy_class">
+                                    <p class="tariffs-article">
+                                        Smart</p>
+                                    <p class="tariffs-price">$20/hour</p>
+                                    <p class="price-descr">For everyday rides of any distance.</p>
+                                    <div class="price-line"></div>
+                                    <div class="tariffs-description">
+                                        <div class="tariff-details-articles">
+                                            <p class="tariff-details-article">Mileage</p>
+                                            <p class="tariff-details-article">Booking</p>
+                                            <p class="tariff-details-article">Pick-up fee</p>
+                                            <p class="tariff-details-article">Extra time</p>
+                                        </div>
+                                        <div class="tariff-details-descriptions">
+                                            <p class="tariff-description-article">70 miles</p>
+                                            <p class="tariff-description-article">free</p>
+                                            <p class="tariff-description-article">$22</p>
+                                            <p class="tariff-description-article">$5/min</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="tariffs-article">Select Plan</a>
+                                </div>
+                                <div class="economy_class">
+                                    <p class="tariffs-article">
+                                        Extra</p>
+                                    <p class="tariffs-price">$70/day</p>
+                                    <p class="price-descr">Limitless usage during 24 hours.</p>
+                                    <div class="price-line"></div>
+                                    <div class="tariffs-description">
+                                        <div class="tariff-details-articles">
+                                            <p class="tariff-details-article">Mileage</p>
+                                            <p class="tariff-details-article">Booking</p>
+                                            <p class="tariff-details-article">Pick-up fee</p>
+                                            <p class="tariff-details-article">Extra time</p>
+                                        </div>
+                                        <div class="tariff-details-descriptions">
+                                            <p class="tariff-description-article">not limited</p>
+                                            <p class="tariff-description-article">free</p>
+                                            <p class="tariff-description-article">$27</p>
+                                            <p class="tariff-description-article">$7/min</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="tariffs-article">Select Plan</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 </div>
             </section>
             <section class="video_section">
@@ -369,12 +592,16 @@
                     <div class="line"></div>
                     <p class="video_descr">Find out how our service works with this video.</p>
                     <div class="playvideo_icon">
-                    <img src="img/PlayIcon.svg" class="playicon" alt="Play Video">
-                    <p class="play_icon_article">Play Now</p>
+                        <img src="img/PlayIcon.svg" class="playicon" alt="Play Video">
+                        <p class="play_icon_article">Play Now</p>
                     </div>
                 </div>
             </section>
         </main>
         <script type="text/javascript" src="js/main.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+            crossorigin="anonymous"></script>
     </body>
+
     </html>

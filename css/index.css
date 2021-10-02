@@ -252,7 +252,6 @@ font-family: 'Urbanist', sans-serif;
     font-size: 18px;
     margin-bottom: -20px;
 }
-
 .available_car{
     height: auto;
     width: 350px;
@@ -362,17 +361,6 @@ font-family: 'Urbanist', sans-serif;
     color: white;
     margin-top: 10px;
 }
-.nav_tariffs{
-    padding-top: 50px;
-    display: flex;
-    justify-content: center;
-}
-.nav-link{
-    color: rgba(128, 128, 128, 0.788) !important;
-}
-.nav-link:hover{
-    color: white !important;
-}
 .video_section{
     margin: 0 auto;
     min-height: 870px;
@@ -403,7 +391,7 @@ font-family: 'Urbanist', sans-serif;
     display: flex;
     background: linear-gradient(rgba(0, 0, 0, 0.537), rgba(0, 0, 0, 0.537)) ;
     flex-direction: column;
-    width: 550px;
+    max-width: 550px;
     padding: 30px;
     border-radius: 30px;
 }
@@ -413,7 +401,7 @@ font-family: 'Urbanist', sans-serif;
 
 }
 .playicon{
-    width: 10%;
+    max-width: 10%;
     height: auto;
 }
 .play_icon_article{
@@ -423,4 +411,74 @@ font-family: 'Urbanist', sans-serif;
     margin-left: 20px;
     margin-top: 15px;
 }
-
+.nav_tariffs{
+    margin: 0 auto;
+    max-width: 70%;
+    padding-top: 50px;
+    display: block;
+}
+.nav-link{
+    display: flex;
+    color: gray !important;
+    border: none !important;
+    background: none;
+    font-family:'Urbanist';
+    font-size: 22px;
+}
+.nav-link:hover{
+    color: gray !important;
+    border: none !important;
+}
+.economy_class{
+    color: white;
+    background: url(../img/tariffs_bg.webp);
+    border-radius: 25px;
+    width: 400px;
+    padding: 20px  0px 20px 30px;
+}
+.tariffs-price{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 44px;
+}
+.tariff-details-article{
+    padding-top: 15px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+}
+.price-descr {
+    font-family:'Urbanist';
+    font-size: 20px;
+}
+.price-line{
+    border-top: 6px solid rgba(255, 255, 255, 0.952);
+    border-width: 3px;
+    max-width: 65px;
+}
+.tariffs-article{
+    font-family:'Urbanist';
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+}
+.tariff-description-article{
+    font-family:'Urbanist';
+    font-size: 22px;
+    padding-top: 15px;
+}
+.tariffs-description{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+.tab-content{
+    padding-top: 50px;
+}
+.tariffs{
+    display: flex;
+    justify-content: space-around;
+}
+.centertabs{
+    display: flex;
+    justify-content: center;
+}
+/*border-bottom: 1.5px solid orangered !important;*/
