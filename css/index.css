@@ -481,4 +481,45 @@ font-family: 'Urbanist', sans-serif;
     display: flex;
     justify-content: center;
 }
+.discount_timer{
+    margin: 0 auto;
+    min-height:750px;
+    max-width: 2100px;
+    background: url(../img/countdown_bg.webp);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.discount-banner{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 56px;
+    width: 800px;
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+}
+.countdown{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 46px;
+    color: white;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.timer-line{
+border-left: 0.5px solid rgba(190, 190, 190, 0.363);
+height: 100px;
+margin-top: 25px;
+}
+.countdowndate{
+    color: rgba(255, 255, 255, 0.541);
+    font-family: 'Urbanist', sans-serif;
+}
+.discount-description{
+    font-size: 18px;
+    color: white;
+    padding-top: 30px;
+}
 /*border-bottom: 1.5px solid orangered !important;*/
