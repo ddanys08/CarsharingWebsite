@@ -19,8 +19,6 @@ function countdown(){
     dateLeft -= dateTemp * 60;
     if(dateTemp < 10) dateTemp = '0' + dateTemp;
     document.querySelector('#minutes span').innerHTML = dateTemp;
-
-    if(dateTemp < 10) dateLeft = '0' + dateLeft;
     document.querySelector('#seconds span').innerHTML = dateLeft;
 
     date--;
