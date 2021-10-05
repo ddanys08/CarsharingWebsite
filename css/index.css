@@ -17,7 +17,7 @@ body{
     margin-left: 400px;  
     margin-top: -70px;  
 }
-.navbar{
+/*.navbar{
     min-height: 80px;
     background-color: white;
     z-index: 2;
@@ -42,7 +42,7 @@ li a{
 }
 ul:hover li a:hover{
 color: red;
-}
+}*/
 
 .logotype{ 
     height: inherit;
@@ -522,4 +522,126 @@ margin-top: 25px;
     color: white;
     padding-top: 30px;
 }
-/*border-bottom: 1.5px solid orangered !important;*/
+.links{
+    margin: 0 auto;
+    background: url(../img/Udrive-logo.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:500px;
+    max-width: 2100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.links-banner{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 42px;
+    color: rgb(157, 40, 240);
+    width: 1100px;
+    padding-left: 150px;
+}
+.links-description{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 18px;
+    padding-left: 30px;
+}
+.contact-us{
+    text-decoration: underline;
+    color: red;
+}
+.footer-container{
+    margin: 0 auto;
+    min-height:450px;
+    max-width: 2100px;
+}
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 400px;
+    padding-right: 200px;
+    word-spacing: 4px;
+}
+.social-media-icons{
+    display: flex;
+    
+}
+.media-link{
+    display: block;
+    color: gray;
+    padding: 0 20px;
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+.media-link:hover{
+    color: orangered;
+}
+.footer-line{
+    margin: 0 auto;
+    border-bottom: 1.5px solid rgb(197, 197, 197);
+    padding-top: 30px;
+    width: 70%;
+}
+.footer-content{
+    border-bottom: 1.5px solid rgb(197, 197, 197);
+    margin: 0 auto;
+    min-height: 250px;
+    max-width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.numbers-article{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    color: gray;
+}
+.phone-number{
+    margin-top: -15px;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 22px;
+    color: black;
+}
+.subscribe-block{
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+}
+input[type=text] {
+    width: 150%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 4px;
+}
+input::placeholder{
+    color:#ccc;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.subscribe-btn{
+    background-color: rgb(157, 40, 240);
+    width: 150%;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+}
+.rights{
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    max-width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

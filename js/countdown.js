@@ -1,4 +1,4 @@
-var dateEnd = new Date('2022-05-02 00:00:00'),
+var dateEnd = new Date('2022-01-05 00:00:00'),
     dateNow = new Date(),
     date = Math.floor((dateEnd.getTime() - dateNow.getTime()) / 1000);
 
