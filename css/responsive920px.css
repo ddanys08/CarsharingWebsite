@@ -1,12 +1,21 @@
-@media (max-width: 960px){
-    .firstpage{
-    display: flex;
-    flex-direction: column;
-    margin:0 auto;
-    background: url(cssimages/main_image.webp) no-repeat;
-    font-size: 50%;
+@media (max-width: 415px){
+    .container{
+        margin:0 auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: -70px;
+        border: 4px double black;  
+    }
+    .download{
+        display: flex;
+        flex-direction: column;
+    }
+    .downlod_googleplay{
+        margin-top: -70px;
+        margin-left: -15px;
     }
     .how_it_works_container{
+        margin:0 auto;
         display: flex;
         flex-direction: column;
         justify-content: center;

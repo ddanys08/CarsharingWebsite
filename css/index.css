@@ -14,8 +14,7 @@ body{
     margin:0 auto;
     display: flex;
     flex-direction: column;
-    margin-left: 400px;  
-    margin-top: -70px;  
+    margin-top: -70px;
 }
 .logotype{ 
     height: inherit;
@@ -29,22 +28,31 @@ body{
     font-family: 'Work Sans', sans-serif;
     font-size: 48px;
     color:#2e2c2ce7;
-    width: 480px;
+    max-width: 480px;
     margin-top: 250px;
 }
 .main_banner_description{
     font-family: 'Urbanist', sans-serif;
     font-size: 22px;
-    width: 500px;
+    max-width: 500px;
     margin-top: 50px;
 }
 .download{
     display: flex;
-    flex-direction: row;
-    
+}
+.downlod_appstore{
+    background: url(../img/appstore.png);
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+        
 }
 .downlod_googleplay{
     margin-top: 50px;
+    width:260px;
+    height:100px;
+    background: url(../img/googleplay.png);
+    background-size: cover;
 }
 .how_it_works{
     margin:0 auto;
