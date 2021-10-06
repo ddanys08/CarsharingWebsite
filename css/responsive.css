@@ -12,13 +12,46 @@
         justify-content: center;
         align-items: center;
     }
-    .welcome_container{
+    .welcome-section{
         background: none;
+    }   
+    .welcome_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wlecome_title_container{
+        max-width: 600px;
+    }
+    .our_app{
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+    .mobile_phone{
         margin: 0 auto;
-        
+        padding-bottom: 50px;
+    }
+    .tariffs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .links-container{
+        margin: 0 auto;
+        padding: 30px;
+    }
+    .numbers-article{
+        font-size: 16px;
 
-        
+    }
+    .phone-number{
+        font-size: 18px;
+    }
+    .input{
+        width: 70%;
+    }
+    .subscribe-btn{
+        width: 105%;
     }
 }

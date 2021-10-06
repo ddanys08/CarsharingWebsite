@@ -73,7 +73,6 @@ body{
 .how_it_works_container{
     margin:0 auto;
     display: flex;
-    
     justify-content: space-around;
     text-align: center;
     margin-top: 50px;
@@ -94,19 +93,24 @@ body{
     text-align: center;
     width: 300px;
 }
-.welcome_container{
+.welcome-section{
+    display: block;
     margin:0 auto;
-    display: grid;
-    min-height: 1020px;
-    max-width: 2100px;
+    min-height:1020px;
     background: url(cssimages/carimage2.webp);
     background-repeat: no-repeat;
-    justify-content: end;
-    align-content: center;
+    max-width: 2100px;
+}
+.welcome_container{
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 .wlecome_title_container{
     min-height: 820px;
     margin-top: 150px;
+    padding-right: 200px;
 
 }
 .welcome_banner{
@@ -114,7 +118,6 @@ body{
     font-family: 'Work Sans', sans-serif;
     font-size: 46px;
     color:#2e2c2c;
-    margin-right: 200px;  
 }
 .welcome_description{
     margin-top: 20px;
@@ -189,6 +192,7 @@ body{
     background-color:white;
     justify-content:center;
     max-width: 2100px;
+    
 }
 .mobile_phone{
     margin-right: 100px;
@@ -306,6 +310,7 @@ font-family: 'Urbanist', sans-serif;
     min-height: 1020px;
     max-width: 2100px;
     background: url(../img/tariffsbg.webp);
+    
 }
 .banner_tariffs{
     display: flex;
@@ -408,6 +413,7 @@ font-family: 'Urbanist', sans-serif;
     border-radius: 25px;
     width: 400px;
     padding: 20px  0px 20px 30px;
+    margin-bottom: 20px;
 }
 .tariffs-price{
     font-family: 'Work Sans', sans-serif;
@@ -511,13 +517,11 @@ margin-top: 25px;
     font-family: 'Work Sans', sans-serif;
     font-size: 42px;
     color: rgb(157, 40, 240);
-    width: 1100px;
-    padding-left: 150px;
+    max-width: 1100px;
 }
 .links-description{
     font-family: 'Urbanist', sans-serif;
     font-size: 18px;
-    padding-left: 30px;
 }
 .contact-us{
     text-decoration: underline;
@@ -532,10 +536,10 @@ margin-top: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    justify-content: center;
     padding-top: 50px;
-    padding-left: 400px;
-    padding-right: 200px;
     word-spacing: 4px;
+    
 }
 .social-media-icons{
     display: flex;
