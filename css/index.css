@@ -17,33 +17,6 @@ body{
     margin-left: 400px;  
     margin-top: -70px;  
 }
-/*.navbar{
-    min-height: 80px;
-    background-color: white;
-    z-index: 2;
-}
-ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -55px;
-    margin-right: 270px;
-}
-li{
-    display: block;
-    padding: 0 20px;
-    font-family:'Open Sans', sans-serif;
-    font-size: 18px;
-    }
-li a{
-    text-decoration: none;
-    color:black;
-    
-}
-ul:hover li a:hover{
-color: red;
-}*/
-
 .logotype{ 
     height: inherit;
     display:flex;
@@ -100,7 +73,7 @@ color: red;
 .how_it_works_container{
     margin:0 auto;
     display: flex;
-    text-justify:inherit;
+    
     justify-content: space-around;
     text-align: center;
     margin-top: 50px;
