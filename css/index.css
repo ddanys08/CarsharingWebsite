@@ -645,3 +645,17 @@ input::placeholder{
     justify-content: flex-end;
     align-items: center;
 }
+.nav-link:hover{
+    color: red !important;
+}
+.navbar-nav {
+    width: 750px;
+}
+.navbar-brand{
+    padding-left: 300px;
+}
+@media (max-width: 1500px){
+    .navbar-brand{
+        padding-left: 0px;
+    }
+}
